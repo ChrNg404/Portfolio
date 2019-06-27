@@ -20,37 +20,47 @@
         <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
         <div class="container">
 
-            <div class="navbar navbar-inverse">
+            <div class="navbar navbar">
                 <div class="navbar-inner">
+                    <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                </div>
                     <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <a class="brand" href="#">Chris Ng</a>
+                    <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        Pages and Projects
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
-                    <a class="brand" href="#">Project name</a>
+                    </button> -->
                     <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
-                                        class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="../webpages/ETL.html">ETL</a></li>
+                                    <li><a href="../webpages/Data.html">All Visualizations</a></li>
+                                    <li class="dropdown">
+                                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis
+                                          <span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="../webpages/Where.html">Where are data science jobs?</a></li>
+                                            <li><a href="../webpages/What.html">What skills should I have?</a></li>
+                                            <li><a href="../webpages/Salary.html">Salary Information</a></li>
+                                            <li><a href="../webpages/Websites.html">Which website is the best at finding data jobs?</a></li>
+                                          </ul>
+                                        </li>
+                                   <!-- li role="separator" class="divider"></li>-->
+                                      <!-- <li><a href="#">Don't click me</a></li> -->
+                                    </li>
+                                  </ul>
+                              </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                    </nav>
                 </div><!-- /.navbar-inner -->
             </div><!-- /.navbar -->
     <!-- Beginning of Jumbotron -->
