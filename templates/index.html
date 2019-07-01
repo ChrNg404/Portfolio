@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
@@ -32,7 +32,7 @@
                                   </button>
                                 </div>
                     <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-                    <a class="brand" href="#">Chris Ng</a>
+                    <a class="brand" href="index.html">Chris Ng</a>
                     <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         Pages and Projects
                         <span class="icon-bar"></span>
@@ -41,16 +41,16 @@
                     </button> -->
                     <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="../webpages/ETL.html">ETL</a></li>
-                                    <li><a href="../webpages/Data.html">All Visualizations</a></li>
+                                    <li><a href="">Graphs</a></li>
+                                    <li><a href="">Personal Blog</a></li>
+                                    <li><a href="">About Me</a></li>
                                     <li class="dropdown">
-                                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis
+                                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Associated Websites
                                           <span class="caret"></span></a>
                                           <ul class="dropdown-menu">
-                                            <li><a href="../webpages/Where.html">Where are data science jobs?</a></li>
-                                            <li><a href="../webpages/What.html">What skills should I have?</a></li>
-                                            <li><a href="../webpages/Salary.html">Salary Information</a></li>
-                                            <li><a href="../webpages/Websites.html">Which website is the best at finding data jobs?</a></li>
+                                            <li><a href="pawsandeffectblog.com">Paws And Effect</a></li>
+                                            <li><a href="">Placeholder</a></li>
+                                            <li><a href="">Placeholder</a></li>
                                           </ul>
                                         </li>
                                    <!-- li role="separator" class="divider"></li>-->
@@ -70,14 +70,23 @@
         <p class="lead" id="Jumbo-description"></p>
         </div> <!-- End of Jumbotron -->
     <div class="row">
-        <div class="col-md-4">
-            <h1>HI!</h1>
+        <div class='column'>
+            <div class="card">
+            <p class="tangerine" id="Writing-title">Writing</p>
+            <img class = "rounded-corners text-center" src="../static/images/writing.jpg" alt="writing" style="width:310px;height:264px;">
+            </div>
         </div>
-        <div class="col-md-4">
-            <h1>HI!</h1>
+        <div class='column'>
+            <div class="card">
+            <h1 id="Data-title">Data Analysis <br>and Visualization</h1>
+            <br>
+            <img class = "rounded-corners" src="../static/images/graph_laptop_coffee.jpg" alt="data" style="width:310px;height:264px;">
+            </div>
         </div>
-        <div class="col-md-4">
-            <h1>HI!</h1>
+        <div class="column">
+            <div class="card">
+            <h1>TBA</h1>
+            </div>
         </div>
     </div>
     </div> <!-- /.container -->
