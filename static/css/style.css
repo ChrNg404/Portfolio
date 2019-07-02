@@ -23,6 +23,19 @@ h1 {
   text-align: center;
 }
 
+#paragraph-title {
+  color:whitesmoke;
+  font-size: 40px;
+  align-items: center;
+}
+
+/* #paragraph-body {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  word-wrap:break-word;
+} */
+
 .jumbotron{
     background-image: url('../images/working-at-night.jpg');
     background-position: 0% 40%;
@@ -201,6 +214,7 @@ img.rounded-corners {
   .carousel .item {
     height: 800px;
   }
+
   .carousel img {
     position: absolute;
     top: -100px;
@@ -249,6 +263,7 @@ img.rounded-corners {
     text-align: center;
     border-radius: 20px;
     background-color:rgba(49,50,60);
+    max-width:100%;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -280,13 +295,34 @@ img.rounded-corners {
   padding: 0 10px;
 }
 
+.paragraph-column {
+  float:left;
+  width:100%;
+  max-width:100%;
+}
+
 .paragraph-card {
   box-shadow: 0 -2px 20px 0 lightskyblue;
-  transition: 0.3s;
   padding: 16px;
   text-align: center;
   border-radius: 20px;
   background-color:rgba(49,50,60);
+  max-width: 100%;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.card-block {
+  overflow-wrap: break-word;
+}
+
+.card-text {
+  display:inline-block;
+  overflow-wrap: break-word;
+  color: whitesmoke;
+  font-size: 20px;
+  word-break: break-all;
 }
 
   /* MARKETING CONTENT
