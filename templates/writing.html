@@ -13,14 +13,14 @@
     
     <link rel="stylesheet" type="text/css" media="screen" href="../static/css/style.css">
 </head>
-<body>
+<body id="writing-body">
     <!-- NAVBAR
     =================== -->
     <div class="navbar-wrapper">
         <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
         <div class="container">
             <div class="navbar navbar">
-                <div class="navbar-inner">
+                <div class="navbar-inner" id="writing-navbar">
                     <div class="container-fluid">
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header">
@@ -47,7 +47,7 @@
                                     <li class="dropdown">
                                           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Associated Websites
                                           <span class="caret"></span></a>
-                                          <ul class="dropdown-menu">
+                                          <ul class="dropdown-menu" id="dropdown-menu-menu">
                                             <li><a href="pawsandeffectblog.com">Paws And Effect</a></li>
                                             <li><a href="https://philosophersfishtank.wordpress.com/">Philosopher's Fish Tank</a></li>
                                             <li><a href="https://aerialbreadgaming.wordpress.com/">Aerial Bread Gaming</a></li>
@@ -62,47 +62,26 @@
                     </nav>
                 </div><!-- /.navbar-inner -->
             </div><!-- /.navbar -->
-    <!-- Beginning of Jumbotron -->
-    <!-- Make it bigger -->
-    <div class="container">
-    <div class="jumbotron text-center">
-        <h1 class="display-4 text-center" id="Jumbo_welcome">Welcome To Chris Ng's Portfolio!</h1>
-        <p class="lead" id="Jumbo-description"></p>
-        </div> <!-- End of Jumbotron -->
-    <div class="row">
-        <div class='column'>
-            <div class="card"><a href="writing.html">
-            <p class="tangerine" id="Writing-title">Writing</p>
-            <img class = "rounded-corners text-center" src="../static/images/writing.jpg" alt="writing" style="width:310px;height:264px;">
-            </a>
-            </div>
-        </div>
-        <div class='column'>
-            <div class="card"><a href="index.html">
-            <h1 id="Data-title">Data Analysis <br>and Visualization</h1>
             <br>
-            <img class = "rounded-corners" src="../static/images/graph_laptop_coffee.jpg" alt="data" style="width:310px;height:264px;">
-            </a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card"><a href="index.html">
-            <h1>TBA</h1>
-            </a>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="paragraph-column">
-        <div class="paragraph-card">
-                <h1 id="paragraph-title"> Hello! My Name is Chris! </h1>
-                <p class='card-text'> Welcome to my portfolio! <br> Here you will find examples of my past and current work. <br> Please use the buttons above to navigate yourself to whichever part of my skillset is the most interesting to you!</p>
-            </div>
-            </div>
-        </div>
-    </div> <!-- /.container -->
-</div><!-- /.navbar-wrapper -->
+            <br>
+            <div class="row">
+                <div class="paragraph-column">
+                <div class="paragraph-card" id="writing-title-card">
+                    <h1 id="writing-paragraph-title"> Chris Ng's Writing Projects </h1>
+                    </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            <div class="row">
+                <div class="paragraph-column">
+                <div class="paragraph-card" id="writing-paragraph-card">
+                <p id="writing-paragraph"> Outside of academia, I've been writing for the last 6 years. During that time, I've written SEO copy, fiction and non-ficiton, articles, and blog posts.</p>
+                <p id="writing-paragraph"> Beside my writing expertise, I've also been trained to be an editor. Whenever I edit a manuscript, I work to make sure that my client's voices are always amplified through the best use of grammar. </p>
+                <p id="writing-paragraph"> Below you will find links to the blogs I'm currently writing for, and examples of my writing work.</p>
+                    </div>
+                    </div>
+                </div>
+        </div> <!--/.navbar wrapper close-->
 </body>
 </html>
