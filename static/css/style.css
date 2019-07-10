@@ -27,6 +27,9 @@ h1 {
   color:whitesmoke;
   font-size: 40px;
   align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-weight:600;
 }
 
 #writing-paragraph-title {
@@ -55,6 +58,13 @@ h1 {
   display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#writing-project-card {
+  color: black;
+  font-size: 50px;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* #paragraph-body {
