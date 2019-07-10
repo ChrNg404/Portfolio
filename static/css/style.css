@@ -60,6 +60,27 @@ h1 {
     margin-right: auto;
 }
 
+#data-title-card {
+  box-shadow: 0 -2px 20px 0 lightskyblue;
+  padding: 16px;
+  text-align: center;
+  border-radius: 140px;
+  background-color:white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight:700;
+  width:80%;
+  overflow: hidden;
+  overflow-wrap: normal;
+  background-color: black;
+  background-image: url('../images/data-background2.jpg');
+  background-position: 41% 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #writing-project-card {
   color: black;
   font-size: 50px;
@@ -75,15 +96,15 @@ h1 {
 } */
 
 .jumbotron{
-    background-image: url('../images/working-at-night.jpg');
-    background-position: 0% 40%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color:black;
+  background-image: url('../images/data-photo.jpg');
+  background-position: 10% 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:black;
 }
 
 .row {
-  margin: 0 -5px;
+  margin: 0 0px;
 }
 
 .row:after {
@@ -95,7 +116,7 @@ h1 {
   color:white;
   font-style: bold;
   /* font-size: 150px; */
-  text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 0 3px black;
+  text-shadow: 5px 0 black, 0 0px black, 2px 0 black, 0 3px black;
   /* letter-spacing:1px; */
   font-family: Georgia, serif;
 }
@@ -158,14 +179,36 @@ body {
     background-color: black;
   }
 
+#index-body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: black;
+  background-image: url('../images/working-at-night.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #writing-body {
   padding-bottom: 40px;
   color: #5a5a5a;
   background-color: black;
   background-image: url('../images/writing-background2.jpg');
-  background-position: 75% 30%;
+  background-position: 50% 83%;
   background-size: inherit;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#data-body {
+    background-image: url('../images/Data-background.jpg');
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 40px;
+    background-attachment:fixed;
 }
 
 #writing-paragraph {
@@ -183,6 +226,7 @@ img.rounded-corners {
   width: 100%;
   float: left;
   white-space: nowrap;
+  margin-bottom: 5px;
 }
 
   /* CUSTOMIZE THE NAVBAR
@@ -195,7 +239,7 @@ img.rounded-corners {
     left: 0;
     right: 0;
     z-index: 10;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
   }
   .navbar-wrapper .navbar {
@@ -251,6 +295,21 @@ img.rounded-corners {
           box-shadow: 0 2px 20px lightskyblue;
   background-image: url('../images/flipped-writing.jpg');
   background-position: 0% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size:15px;
+  font-weight: 700;
+}
+
+#data-navbar {
+  background-color:rgba(49,50,60);
+  border: 0;
+  text-shadow: 1px 3px 3px black;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+          box-shadow: 0 2px 20px lightskyblue;
+  background-image: url('../images/data-background2.jpg');
+  background-position: 20% 0%;
   background-size: cover;
   background-repeat: no-repeat;
   font-size:15px;
@@ -333,12 +392,18 @@ img.rounded-corners {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 -2px 20px 0 lightskyblue;
     transition: 0.3s;
-    padding: 5px;
     text-align: center;
     border-radius: 20px;
     background-color:rgba(49,50,60);
     max-width:100%;
-    width: 80%;
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+.card + .card {
+    margin: 0 0 0 8px;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -409,10 +474,13 @@ img.rounded-corners {
 }
 
 .card-text {
-  display:inline-block;
   overflow-wrap: normal;
   color: whitesmoke;
   font-size: 20px;
+  word-break: normal;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
   word-break: normal;
 }
 
@@ -470,7 +538,7 @@ img.rounded-corners {
   @media (max-width: 979px) {
 
     .container.navbar-wrapper {
-      margin-bottom: 0;
+      margin-bottom: 5px;
       width: auto;
     }
     .navbar-inner {
