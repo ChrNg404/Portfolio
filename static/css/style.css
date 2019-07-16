@@ -466,6 +466,9 @@ img.rounded-corners {
   float:left;
   width:100%;
   max-width:100%;
+  overflow: hidden;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .paragraph-card {
